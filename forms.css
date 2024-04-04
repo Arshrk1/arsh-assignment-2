@@ -1,0 +1,45 @@
+body {
+    font: 150% Arial, Helvetica, sans-serif;
+    margin: 20px;
+   background-image: url(j.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+h1{
+   color: darkred;
+   margin-left: 5em; 
+}
+h3{
+    color:darkred;  
+}
+    
+label {
+    color: darkred;
+    float: left;
+    width: 10em;
+    font-weight: bold;
+    text-align: center;
+    }
+
+input {
+    width: 15em;
+    margin-left: 1em;
+    margin-bottom: .5em;}
+    
+input:focus {
+    border: 2px  solno darkred; }
+
+#button, #reset {
+    width: 10em;
+    box-shadow: 2px 2px 0 darkred;
+    background-color: rgb(244, 195, 195); }
+
+#button { 
+    margin-left: 9.5em; }
+    #button:hover, #reset:hover{
+        filter: grayscale(2);
+        transform: scale(1.03);
+    }
